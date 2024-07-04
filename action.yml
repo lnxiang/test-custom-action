@@ -1,5 +1,5 @@
-name: "hello workd js action"
-description: "greet someone and record the time"
+name: 'hello workd js action'
+description: 'greet someone and record the time'
 author: nicledomaS
 branding:
   color: black
@@ -7,12 +7,12 @@ branding:
   
 inputs:
   who-to-greet:
-    description: "who to greet"
+    description: 'who to greet'
     required: true
-    default: "World"
+    default: 'World'
 outputs:
    time:
-   description: "The time we greeted you"
+   description: 'The time we greeted you'
    
 runs:
   using: 'node16'
