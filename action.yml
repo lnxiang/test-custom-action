@@ -11,8 +11,8 @@ inputs:
     required: true
     default: 'World'
 outputs:
-   time:
-   description: 'The time we greeted you'
+  time:
+    description: 'The time we greeted you'
    
 runs:
   using: 'node16'
