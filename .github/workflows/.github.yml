@@ -6,6 +6,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: output the string
+        id: hello
         uses: lnxiang/test-custom-action@main
         with:
           who-to-greet: 'The big big World'
+      - name: get the outputtime
+        run: echo "the time was ${{ steps.hello.outputs.time }}"
